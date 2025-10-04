@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/cb17c41d-6a67-4472-8b91-cca977e65276/web/BR-pt-20250505-TRIFECTA-perspective_8e55a375-98c9-421f-8d19-5c4c4773169a_small.jpg") no-repeat center center fixed;
+
+    background-size: cover;
+}
+
+.corpo {
+    display: inline-block;
+
+    background-color: rgba(0, 0, 0, 0.767);
+
+    height: 570px;
+    width: 350px;
+
+    border-radius: 5px;
+
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+    & h1 {
+        color: white;
+    }
+
+    & .entrar {
+
+        color: rgb(255, 255, 255);
+
+        width: 250px;
+        height: 30px;
+        background-color: red;
+
+        border-radius: 4px;
+        border-style: hidden;
+
+        cursor: pointer;
+
+        font-size: 15px;
+
+        margin-top: 15px;
+
+    }
+
+    & .entrar:hover {
+        background-color: rgb(211, 20, 20);
+    }
+
+    & .codiguin {
+        color: rgb(255, 255, 255);
+
+        width: 250px;
+        height: 30px;
+        background-color: rgba(128, 128, 128, 0.4);
+
+        border-radius: 4px;
+        border-style: hidden;
+
+        cursor: pointer;
+
+        font-size: 15px;
+
+        margin-top: 15px;
+
+    }
+
+    & .codiguin:hover {
+        background-color: rgba(110, 110, 110, 0.4);
+    }
+
+}
+
+#camada1 {
+    
+    & .texto {
+
+        background-color: rgba(70, 90, 126, 0.4);
+        border-color: rgb(118, 118, 118);
+        border-style: solid;
+        border-width: 1px;
+
+        height: 40px;
+        width: 250px;
+        border-radius: 4px;
+
+        color: white;
+
+        margin-top: 20px;
+        padding-left: 10px;
+
+    }
+}
+
+.ou {
+
+    color: white;
+    text-align: center;
+
+    margin-top: 15px;
+    
+}
+
+#oi {
+    text-align: center;
+
+    margin-top: 15px;
+
+    & .esqueci {
+
+        color: white;
+        text-align: center;
+
+    }
+
+    & .esqueci:hover {
+        color: rgb(187, 187, 187);
+    }
+}
+
+#limbrates {
+    margin-top: 15px;
+
+    & li {
+
+        list-style: none;
+
+        margin-left: 0px;
+        & .check {
+            color: white;
+        }
+
+    }
+
+    
+}
+
+#testinho {
+    margin-top: 15px;
+
+    color: rgba(255, 255, 255, 0.7);
+
+    & a {
+        color: white;
+
+        text-decoration: none;
+    }
+}
+
+#testinho2 {
+    margin-top: 15px;
+
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}
+
+#saberendo {
+    
+    & a {
+        color: rgb(68, 142, 244);
+
+        font-size: 10px;
+    }
+}
