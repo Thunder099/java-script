@@ -80,10 +80,8 @@ input {
     justify-content: center;
 }
 
-.envia { width: 60%; transition: 0.3s ease; }
-.envia:hover { transform: scale(1.05); }
-.envia:active { transform: scale(0.95); }
+.enviar { width: 60%; transition: 0.3s ease; }
+.enviar:hover { transform: scale(1.05); cursor: pointer; }
+.enviar:active { transform: scale(0.95); background-color: rgb(228, 228, 255); }
 
-h1 {
-    margin-top: 30px;
-}
+h1 { margin-top: 30px; }
