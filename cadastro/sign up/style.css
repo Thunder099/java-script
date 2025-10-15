@@ -19,12 +19,17 @@ body {
     height: 100vh;
 }
 
+#titulo { text-align: left; width: 100%; }
+
 .container-form {
     display: flex;
     flex-direction: column;
     align-items: center;
 
     text-align: left;
+
+    box-sizing: border-box;
+    padding: 0px 50px 0px 50px;
 
     color: white;
     background: radial-gradient(ellipse at top left, rgb(45, 51, 224), rgb(0, 1, 57));
@@ -37,20 +42,14 @@ body {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
 }
 
-.container-form label {
-    margin-top: 10px;
-}
+.container-form label { margin-top: 10px; }
 
-.container-form h1 {
-    margin-top: 40px;
-    margin-bottom: 10px;
-}
+.container-form h1 { margin-top: 40px; margin-bottom: 10px; }
 
 .container-form form {
     display: flex;
     flex-direction: column;
 
-    padding: 0px 50px 0px 50px;
     box-sizing: border-box;
 
     width: 100%;
