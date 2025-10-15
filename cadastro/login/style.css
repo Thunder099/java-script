@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: radial-gradient(ellipse at top left, rgb(0, 1, 64), rgb(0, 1, 27));
+
+    height: 100vh;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: left;
+
+    color: white;
+    background: radial-gradient(ellipse at top left, rgb(45, 51, 224), rgb(0, 1, 57));
+
+    border-radius: 6px;
+
+    height: 400px;
+    width: 400px;
+    
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+
+    padding: 30px 50px 0px 50px;
+
+    box-sizing: border-box;  
+}
+
+.container-form form {
+    display: flex;
+    flex-direction: column;
+
+
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+.conteudo-form {
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 10px;
+
+    text-align: left;
+}
+
+#titulo {
+
+    position: static;
+    text-align: left;
+
+    width: 100%;
+
+    margin-bottom: 25px;
+}
+
+input {
+    height: 44px;
+    padding: 8px;
+
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.325);
+
+}
+
+#submit-box {
+    margin-top: 10px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enviar {
+    width: 100%;
+    height: 30px;
+    transition: 0.3s ease;
+
+    background:  rgb(0, 140, 255);
+    color: #ffffff; /* preto ou azul bem escuro para contraste */
+}
+.enviar:hover { cursor: pointer; background: rgb(0, 195, 255) }
+
+#esquece { margin-top: 10px; text-align: center; }
+#esquece a{ font-size: 12px; color: white; }
+#esquece a:hover { color: rgb(207, 207, 207); }
+
+#check-box {
+    display: flex;
+    align-items: center;
+}
+
+#check {
+    box-shadow: none;
+    margin-right: 10px;
+
+}
+
+#check-box label {
+    font-size: 14px;
+    user-select: none;
+}
+
+#redirect-box { width: 100%; text-align: left; margin-top: 20px; font-size: 14px;}
+
+#redirect { color: rgb(255, 255, 255); text-align: left; }
+#redirect a { text-decoration: none; color: rgb(94, 250, 255);}
+#redirect a:hover { text-decoration: underline;}
