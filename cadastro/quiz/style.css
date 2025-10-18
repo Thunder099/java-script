@@ -1,0 +1,4 @@
+.container-quiz {
+    display: flex;
+    flex-direction: column;
+}
