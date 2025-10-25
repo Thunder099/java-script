@@ -9,6 +9,7 @@ let questions = [
 ]
 
 function verificar() {
+
     let select = document.querySelector("input[name='resposta1']:checked")
 
     let h1 = document.getElementsByTagName("h1")[0]
@@ -50,4 +51,20 @@ function verificar() {
         allLabel[3].innerHTML = `<input name="resposta1" type="radio" id="rsp4" value="true"> ${questions[3][4]}`
     }
 
+
+    if (counter == 5) {
+        let end = document.getElementsByClassName("finalizar")[0]
+        let env = document.getElementsByClassName("enviar")[0]
+
+        end.style.display = "inline-block"
+        env.style.display = "none"
+    }
+}
+
+
+function finalizar() {
+    // link do meu outro html, ? procura, pt vira uma variavel com a quantidade de pontos da variavel points
+    window.location.href = `pontos.html?pt=${points}`
+
+    
 }
