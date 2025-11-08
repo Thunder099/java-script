@@ -1,8 +1,4 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+* { padding: 0px; margin: 0px; font-family: Arial, Helvetica, sans-serif; }
 
 
 body {
@@ -37,9 +33,7 @@ body {
     gap: 50px;
 }
 
-h1:nth-child(1) {
-    font-size: 25px;
-}
+h1:nth-child(1) { font-size: 25px; }
 
 .radios {
     display: flex;
@@ -48,10 +42,7 @@ h1:nth-child(1) {
     align-items: baseline;
 }
 
-input[type="radio"] {
-    width: 15px;
-    height: 15px;
-}
+input[type="radio"] { width: 15px; height: 15px; }
 
 input[type="button"] {
     height: 30px;
@@ -67,17 +58,11 @@ input[type="button"] {
     will-change: transform;
 }
 
-input[type="button"]:hover {
-    transform: scale(1.05);
-}
+input[type="button"]:hover { transform: scale(1.05); }
 
-input:hover, input[type="radio"]:hover {
-    cursor: pointer;
-}
+input:hover, input[type="radio"]:hover { cursor: pointer; }
 
 .finalizar { display: none; }
-
-
 
 .container {
     width: 400px;
@@ -97,3 +82,4 @@ input:hover, input[type="radio"]:hover {
     font-size: 1.5rem;
     text-align: center;
 }
+
