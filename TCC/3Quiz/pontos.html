@@ -20,8 +20,12 @@
     <script>
         // pega uma informaçao do search
         const pegarInfo = new URLSearchParams(window.location.search)
-        const pontos = pegarInfo.get("pt")
+        // const pontos = pegarInfo.get("pt")
         const nome = pegarInfo.get("nome")
+
+        let teste = nome.split("?")
+
+        console.log(teste[1][3])
 
         let div = document.getElementsByClassName("container")[0]
 

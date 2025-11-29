@@ -78,5 +78,5 @@ function finalizar() {
     const nome = pegarInfo.get("nome")
 
     // link do meu outro html, ? procura, pt vira uma variavel com a quantidade de pontos da variavel points
-    window.location.href = `pontos.html?nome=${nome}pt=${points}`
+    window.location.href = `pontos.html?nome=${nome}?pt=${points}`
 }
