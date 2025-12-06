@@ -19,15 +19,28 @@
 
     <script>
         // pega uma informaçao do search
-        const pegarInfo = new URLSearchParams(window.location.search)
+        const pegarInfo = new URLSearchParams(window.location.search);
         // const pontos = pegarInfo.get("pt")
-        const nome = pegarInfo.get("nome")
 
-        let teste = nome.split("?")
+        // const nome = pegarInfo.get("nome")
 
-        console.log(teste[1][3])
+
+        const nome = pegarInfo.get("nome");
+        const pontos = pegarInfo.get("pt");
+
+        console.log(nome, pontos)
+
+
+        // let teste = nome.split("?")
+
+        // alert(nome.slice(0,6))
+
+        
+        // let pontos = teste[1][3]
 
         let div = document.getElementsByClassName("container")[0]
+
+
 
         div.innerHTML = `<p>Parabéns ${nome}, sua pontuação foi: ${pontos}</p>`
 

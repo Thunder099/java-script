@@ -2,10 +2,10 @@ let points = 0
 let counter = 0
 
 let questions = [
-    ["Qual a maior montanha do sistema solar?", "Monte everest", "Makalu", "Monte olimpo", "Kangphu Kang"],
+    ["Qual a maior montanha do sistema solar inteiro?", "Monte everest", "Makalu", "Monte olimpo", "Kangphu Kang"],
     ["Quantos planetas existem no sistema solar?", "6", "8", "9", "7"],
     ["Qual a profundidade da fossa das marianas?", "10.984 metros", "11.687 metros", "9.312 metros", "14.983 metros"],
-    ["Oque é um horizonte de eventos?", "Horizonte de eventos é o ponto onde o tempo para completamente ao redor de um buraco negro.", "É a camada de gás e poeira que envolve o buraco negro, responsável por esconder a luz que tenta sair.", "É a distância máxima em que um buraco negro pode sugar objetos ao seu redor.", "É o ponto em que nem a luz escapa da sua gravidade"]
+    ["qual a cor do relâmpago marquinhos?", "Relâmpago", "vermelho", "callrsamente vearde.", "vermelho2"]
 ]
 
 
@@ -54,8 +54,8 @@ function verificar() {
         
     } else if (counter == 4) {
         h1.innerHTML = questions[3][0]
-        allLabel[0].innerHTML = `<input name="resposta1" type="radio" id="rsp1" value="false"> ${questions[3][1]}`
-        allLabel[1].innerHTML = `<input name="resposta1" type="radio" id="rsp2" value="false"> ${questions[3][2]}`
+        allLabel[0].innerHTML = `<input name="resposta1" type="radio" id="rsp1" value="true"> ${questions[3][1]}`
+        allLabel[1].innerHTML = `<input name="resposta1" type="radio" id="rsp2" value="true"> ${questions[3][2]}`
         allLabel[2].innerHTML = `<input name="resposta1" type="radio" id="rsp3" value="false"> ${questions[3][3]}`
         allLabel[3].innerHTML = `<input name="resposta1" type="radio" id="rsp4" value="true"> ${questions[3][4]}`
     }
@@ -78,5 +78,5 @@ function finalizar() {
     const nome = pegarInfo.get("nome")
 
     // link do meu outro html, ? procura, pt vira uma variavel com a quantidade de pontos da variavel points
-    window.location.href = `pontos.html?nome=${nome}?pt=${points}`
+    window.location.href = `pontos.html?nome=${nome}&pt=${points}`
 }
